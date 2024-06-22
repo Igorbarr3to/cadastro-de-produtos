@@ -85,6 +85,7 @@ tbody tr td {
   vertical-align: text-top;
   padding: 6px;
   max-width: 50px;
+  border: 1px solid #000;
 }
 
 thead tr th {
@@ -178,6 +179,17 @@ tbody tr td.acao {
   border-top: none;
   border-left: none;
   border-right: none;
+}
+
+.radio {
+  display: flex;
+  padding: 20px;
+}
+
+.radio label, .radio input{
+  display: flex;
+  flex-direction: row;
+  width: 30px;
 }
 
 .modal button {
